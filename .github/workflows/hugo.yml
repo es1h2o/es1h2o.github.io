@@ -25,6 +25,10 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Update submodules
+        run: git submodule update --remote --recursive
       - name: Set up GitHub Pages
         uses: actions/configure-pages@v5
       - uses: jdx/mise-action@v2
