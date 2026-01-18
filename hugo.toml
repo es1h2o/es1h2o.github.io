@@ -1,5 +1,5 @@
 baseURL = 'https://es1h2o.github.io/'
-title = 'My Site'
+title = 'Rhod(eS1)sland'
 theme = 'hugo-coder'
 languageCode = 'ja-jp'
 defaultcontentlanguage = 'ja-jp'
@@ -10,9 +10,9 @@ defaultcontentlanguage = 'ja-jp'
   tag = 'tags'
 
 [params]
-  author = 'es1h2o'
+  author = 'eS1H2O'
   info = '人の形をした何か'
-  description = 'es1h2o の個人サイト'
+  description = 'eS1H2O の個人サイト'
   keywords = 'hugo, blog, personal'
   since = '2026'
   colorScheme = 'auto'
