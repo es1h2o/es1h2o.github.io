@@ -1,0 +1,6 @@
+[tools]
+hugo-extended = "0.154.5"
+
+[tasks.build]
+description = "Build"
+run = "hugo --gc --minify"

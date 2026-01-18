@@ -1,0 +1,40 @@
+baseURL = 'https://es1h2o.github.io/'
+title = 'My Site'
+theme = 'hugo-coder'
+languageCode = 'ja-jp'
+defaultcontentlanguage = 'ja-jp'
+
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
+
+[params]
+  author = 'es1h2o'
+  info = '人の形をした何か'
+  description = 'es1h2o の個人サイト'
+  keywords = 'hugo, blog, personal'
+  since = '2026'
+  colorScheme = 'auto'
+
+[[params.social]]
+  name = 'GitHub'
+  icon = 'fa-brands fa-github fa-2x'
+  weight = 1
+  url = 'https://github.com/es1h2o'
+
+[[params.social]]
+  name = 'Bluesky'
+  icon = 'fa-brands fa-bluesky fa-2x'
+  weight = 2
+  url = 'https://bsky.app/profile/es1h2o.bsky.social'
+
+[[menu.main]]
+  name = 'About'
+  url = 'about/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Blog'
+  url = 'posts/'
+  weight = 2
