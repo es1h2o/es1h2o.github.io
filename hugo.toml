@@ -1,4 +1,4 @@
-baseURL = 'https://es1h2o.github.io/'
+baseURL = 'https://es1h2o.net/'
 title = 'Rhod(eS1)sland'
 theme = 'hugo-coder'
 languageCode = 'ja-jp'
@@ -27,7 +27,7 @@ defaultcontentlanguage = 'ja-jp'
   name = 'Bluesky'
   icon = 'fa-brands fa-bluesky fa-2x'
   weight = 2
-  url = 'https://bsky.app/profile/es1h2o.bsky.social'
+  url = 'https://bsky.app/profile/es1h2o.net'
 
 [[menu.main]]
   name = 'About'
