@@ -16,6 +16,7 @@ defaultcontentlanguage = 'ja-jp'
   keywords = 'hugo, blog, personal'
   since = '2026'
   colorScheme = 'auto'
+  avatarURL = 'images/avatar.jpg'
 
 [[params.social]]
   name = 'GitHub'
